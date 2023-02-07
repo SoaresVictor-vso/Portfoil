@@ -1,0 +1,87 @@
+.ProjectContainer{
+    margin-top: 10vh;
+    margin: auto;
+    width: 80vw;
+    height: 39vh;
+}
+
+.ProjectImage{
+    width: 39vh;
+    height: 26vh;
+}
+
+#Details{
+    width: 40vw;
+    padding-left: 5vh;
+}
+
+.ProjectTitle{
+    height: 9vh;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+}
+
+.ProjectDate{
+    height: 5vh;
+    font-size: 2vh;
+    margin: 0;
+    padding: 0;
+}
+
+.ProjectDescription{
+    max-height: 10vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 2vh;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+
+
+@media (orientation: portrait){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .ProjectDescription{
+        display: none;
+        width: 0;
+    }
+
+    .ProjectDate{
+        display: none;
+        width: 0;
+    }
+
+    .ProjectContainer{
+        width: 39vh;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+    .OnSameLine{
+        display: block;
+    }
+    
+    #Details{
+        padding: 0;
+        text-align: center;
+    }
+
+    .ProjectTitle{
+        text-align: center;
+    }
+ 
+}
+
+

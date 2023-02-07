@@ -1,0 +1,50 @@
+:root{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #d0d0d0;
+    color: #202020;
+}
+
+.Title{
+    padding-top: 5vh;
+}
+
+.CenterText{
+    text-align: center;
+}
+
+.Justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.NoDecor{
+    color: #202020;
+    text-decoration: none;
+}
+
+.CenterBox{
+    margin: auto;
+    width: 50%;
+}
+
+.CenterInline{
+    margin: auto;
+    text-align: center;
+} 
+
+.OnSameLine{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #202020;
+}
+
+.PageTitle{
+    font-size: 5vh;
+    padding-bottom: 10vh;
+}
