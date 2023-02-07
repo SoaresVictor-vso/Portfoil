@@ -36,3 +36,13 @@ h3{
         width: 80vw;
     }
 }
+
+@media(orientation:landscape){
+    a,p{
+        font-size: 12pt;
+    }
+
+    h3{
+        font-size: 18pt;
+    }
+}
